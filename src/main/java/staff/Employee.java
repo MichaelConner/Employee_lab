@@ -17,8 +17,10 @@ public abstract class Employee {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String newName) {
+        if (newName != ""){
+            this.name = newName;
+        }
     }
 
     public String getNino() {
@@ -38,7 +40,9 @@ public abstract class Employee {
     }
 
     public double raiseSalary(double increase){
-        return getSalary() + increase;
+        if (increase > 0){
+        salary = getSalary() + increase;}
+        return salary;
     }
 
     public double payBonus(){

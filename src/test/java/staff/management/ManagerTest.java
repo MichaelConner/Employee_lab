@@ -28,6 +28,18 @@ public class ManagerTest {
     }
 
     @Test
+    public void canChangeName(){
+        manager.setName("Alabaster Tabernathy");
+        assertEquals("Alabaster Tabernathy", manager.getName());
+    }
+
+    @Test
+    public void cannotChangeNameToBlank(){
+        manager.setName("");
+        assertEquals("Clive Edwards", manager.getName());
+    }
+
+    @Test
     public void hasNino(){
         assertEquals("JS832149D", manager.getNino());
     }
@@ -40,6 +52,16 @@ public class ManagerTest {
     @Test
     public void canRaiseSalary() {
         assertEquals(61000.00, manager.raiseSalary(1000.00), 0.01);
+    }
+
+    @Test
+    public void cannotLowerSalary() {
+        assertEquals(60000.00, manager.raiseSalary(-0.01), 0.01);
+    }
+
+    @Test
+    public void cannotRaiseSalaryByZero() {
+        assertEquals(60000.00, manager.raiseSalary(0), 0.01);
     }
 
     @Test

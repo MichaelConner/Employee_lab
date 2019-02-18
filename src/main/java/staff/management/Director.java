@@ -1,7 +1,5 @@
 package staff.management;
 
-//import staff.management.Manager;
-
 public class Director extends Manager {
 
     private double budget;
@@ -13,6 +11,11 @@ public class Director extends Manager {
 
     public double getBudget() {
         return budget;
+    }
+
+    @Override
+    public double payBonus(){
+        return getSalary() / 50;
     }
 
 }
