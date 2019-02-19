@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbee6b28-d195-4eda-b45c-2375ad6ad5b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/staff/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/staff/management/DirectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/staff/management/DirectorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staff/management/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staff/management/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/staff/management/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staff/management/DirectorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2363" />
+          <entry key="java" value="2476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2363" />
+          <entry key="JAVA" value="2476" />
         </counts>
       </usages-collector>
     </session>
@@ -61,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="660">
+              <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -73,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/staff/management/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="145">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -88,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/staff/management/DirectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -100,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/staff/management/Director.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -421,8 +423,8 @@
         <option value="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" />
         <option value="$PROJECT_DIR$/src/test/java/staff/techStaff/DatabaseAdminTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/staff/techStaff/DeveloperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/staff/management/DirectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/staff/management/Director.java" />
+        <option value="$PROJECT_DIR$/src/test/java/staff/management/DirectorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/staff/management/ManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/staff/Employee.java" />
       </list>
@@ -431,7 +433,7 @@
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="811" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -544,7 +546,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550515962072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550569101356" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
   </component>
   <component name="RecentsManager">
@@ -564,7 +566,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectorTest">
+  <component name="RunManager" selected="JUnit.ManagerTest">
     <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EmployeeLab_test" />
       <extension name="coverage">
@@ -629,10 +631,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DirectorTest" />
-        <item itemvalue="JUnit.DatabaseAdminTest" />
-        <item itemvalue="JUnit.DeveloperTest" />
         <item itemvalue="JUnit.ManagerTest" />
+        <item itemvalue="JUnit.DeveloperTest" />
+        <item itemvalue="JUnit.DatabaseAdminTest" />
+        <item itemvalue="JUnit.DirectorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -650,39 +652,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeveloperTest - 2019.02.18 at 15h 56m 16s.xml">
-      <configuration name="DeveloperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseAdminTest - 2019.02.18 at 15h 57m 51s.xml">
-      <configuration name="DatabaseAdminTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseAdminTest - 2019.02.18 at 15h 58m 02s.xml">
-      <configuration name="DatabaseAdminTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseAdminTest - 2019.02.18 at 16h 00m 17s.xml">
-      <configuration name="DatabaseAdminTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeveloperTest - 2019.02.18 at 16h 00m 55s.xml">
-      <configuration name="DeveloperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DirectorTest - 2019.02.18 at 16h 06m 45s.xml">
-      <configuration name="DirectorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DirectorTest - 2019.02.18 at 16h 07m 41s.xml">
-      <configuration name="DirectorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 18h 41m 15s.xml">
+    <history-entry file="ManagerTest - 2019.02.19 at 09h 34m 42s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 18h 47m 23s.xml">
+    <history-entry file="DeveloperTest - 2019.02.19 at 09h 34m 46s.xml">
+      <configuration name="DeveloperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseAdminTest - 2019.02.19 at 09h 34m 49s.xml">
+      <configuration name="DatabaseAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DirectorTest - 2019.02.19 at 09h 34m 52s.xml">
+      <configuration name="DirectorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.19 at 09h 35m 49s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 18h 47m 43s.xml">
+    <history-entry file="ManagerTest - 2019.02.19 at 09h 37m 39s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DirectorTest - 2019.02.19 at 09h 38m 13s.xml">
+      <configuration name="DirectorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseAdminTest - 2019.02.19 at 09h 38m 16s.xml">
+      <configuration name="DatabaseAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeveloperTest - 2019.02.19 at 09h 38m 19s.xml">
+      <configuration name="DeveloperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.19 at 09h 38m 22s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -690,16 +692,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20529328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32823366" />
+      <window_info anchor="bottom" id="Messages" weight="0.32823366" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32823366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3282123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -749,22 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/staff/management/Director.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/staff/management/DirectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/staff/management/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -775,17 +763,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/staff/management/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/staff/management/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="145">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        <state relative-caret-position="660">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/staff/management/DirectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>

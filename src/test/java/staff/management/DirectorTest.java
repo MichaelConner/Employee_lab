@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class DirectorTest {
 
 
-    Director director;
+    private Director director;
 
     @Before
     public void before(){

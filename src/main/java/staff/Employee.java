@@ -18,7 +18,7 @@ public abstract class Employee {
     }
 
     public void setName(String newName) {
-        if (newName != ""){
+        if (!newName.equals("")){
             this.name = newName;
         }
     }
@@ -40,9 +40,9 @@ public abstract class Employee {
     }
 
     public double raiseSalary(double increase){
-        if (increase > 0){
-        salary = getSalary() + increase;}
-        return salary;
+        if (increase >= 0){
+        this.salary = getSalary() + increase;}
+        return this.salary;
     }
 
     public double payBonus(){
